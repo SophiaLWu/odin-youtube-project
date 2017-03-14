@@ -5,7 +5,19 @@
 
 /* STYLES */
 
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #666;
+  font-size: 19px;
+  font-weight: 500;
+}
+
 h4 {
+  color: #333;
   font-size: 13px;
   font-weight: bold;
 }
@@ -16,8 +28,12 @@ a, a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
+p {
+  font-size: 13px;
+}
 
 /* HEADER */
+
 .disabled:hover, .disabled:active, .disabled:focus {
   outline: none;
 }
@@ -34,6 +50,7 @@ button:hover, button:active, button:focus {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .navbar-items {
@@ -174,6 +191,70 @@ body {
   position: relative;
 }
 
+.video-title-container {
+  background: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  display: inline-block;
+  height: 170px;
+  margin-top: 7px;
+  margin-right: 7px;
+  width: 640px;
+}
+
+.video-title {
+  padding: 10px;
+  text-align: left;
+  width: 450px;
+}
+
+.video-title-add-container {
+  height: 30px;
+  margin: 0 10px;
+  width: 100%;
+}
+
+.avatar {
+  height: 49px;
+  width: 49px;
+}
+
+.avatar-container, .channel-container {
+  float: left;
+}
+
+.video-views {
+  clear: both;
+  left: -20px;
+  text-align: right;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.video-descrip-container {
+  background: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  display: inline-block;
+  height: 120px;
+  margin-top: 7px;
+  margin-right: 7px;
+  width: 640px;
+}
+
+.video-descrip {
+  padding: 10px;
+  text-align: left;
+}
+
+.category-license {
+  font-size: 11px;
+  padding-left: 10px;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+td {
+    padding-right: 70px;
+}
 
 /* SIDEBAR */
 
