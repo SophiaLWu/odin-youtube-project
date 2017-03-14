@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.disabled:hover, .disabled:active, .disabled:focus {
+  outline: none;
+}
+
+button:hover, button:active, button:focus {
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar {
+  background: white;
+  border-bottom: 1px solid #e8e8e8;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-items {
+  margin-left: 37px;
+  margin-top: 17px;
+}
+
+.wrapper {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.hamburger {
+  width: 13px;
+  height: 11px;
+}
+
+.menu-btn, .logo-btn, .upload-btn, .bell-btn, .headshot-btn {
+  background: transparent;
+  border: none;
+}
+
+.logo {
+  top: -27px;
+  width: 105px;
+  height: 70px;
+  position: relative;
+}
+
+.search-container {
+  top: -5px;
+  left: 76px;
+}
+
+.search {
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 2px #eee;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 0 6px;
+  height: 29px;
+  width: 583px;
+}
+
+.search-btn {
+  background: #f8f8f8;
+  border: 1px solid #d3d3d3;
+  box-shadow: inset 0 1px 2px #eee;
+  box-sizing: border-box;
+  height: 29px;
+  padding-left: 0 6px;
+  left: 75px;
+  width: 67px;
+  top: -5px;
+}
+
+.search-btn:hover {
+  background: #f0f0f0;
+}
+
+.search-btn:active {
+  background: #e9e9e9;
+  border-color: #c6c6c6;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  height: 29px;
+  width: 65px;
+}
+
+.mag-glass {
+  width: 13px;
+  height: 13px;
+}
+
+.upload-wrapper {
+  right: 142px;
+  position: absolute;
+}
+
+.upload {
+  width: 17px;
+  height: 17px;
+}
+
+.bell-wrapper {
+  top: 14px;
+  right: 75px;
+  position: absolute;
+}
+
+.bell {
+  width: 23px;
+  height: 23px;
+}
+
+.headshot-wrapper {
+  top: 12px;
+  right: 29px;
+  position: absolute;
+}
+
+.headshot {
+  width: 27px;
+  height: 27px;
+}
+
+/* BODY */
+body {
+  background: #f1f1f1;
+  font-family: 12px Roboto, arial, sans-serif;
+  text-align: start;
+}
+
+.container {
+  margin: 10px;
+  padding-top: 50px;
+}
+
+.video-comments {
+  background: green;
+  float: left;
+  margin-right: 45px;
+  height: 500px;
+  width: 60%;
+}
+
+.sidebar {
+  background: red;
+  float: left;
+  height: 1000px;
+  width: 33%;
+}
